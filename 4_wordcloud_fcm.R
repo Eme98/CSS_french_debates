@@ -84,7 +84,6 @@ interruption_men_men <- corpus(df$orateurs_texte_without[df$orateurs_interruptio
                                                  & df$gender == "M" 
                                                  & df$orateurs_qualite != "President assemblee"
                                                  & shift(df$gender) == "M"])
-textstat_summary(interruption_men)[,4] %>% mean()
 
 interruption_women_women <- corpus(df$orateurs_texte_without[df$orateurs_interruption == "INTERRUPTION_1_10"
                                                  & df$gender == "F" 

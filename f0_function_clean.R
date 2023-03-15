@@ -17,10 +17,8 @@ list.files(pattern=".xml$") #
 # create a list from these files
 list.filenames<-list.files(pattern=".xml$")
 
-#Hello
-
-#####
-
+###################################
+####### function : to build a first df ###
 df_list <- lapply(list.filenames, function(f){
   xml_raw <- read_xml(f)
   
@@ -61,21 +59,21 @@ df_list <- lapply(list.filenames, function(f){
   
   #Info about the name, the id, the quality of the orator, the text and the duration of the talk
   
-  orateurs_nom <- xml_text( xml_find_all( nodes, ".//nom" ) )
-  orateurs_id <- xml_text( xml_find_all( nodes, ".//id" ) )
-  orateurs_qualite <- xml_text( xml_find_all( nodes, ".//qualite" ) )
-  orateurs_texte <- xml_text( xml_find_all( nodes, ".//texte" ) )
-  orateurs_italic <- nodes %>% xml_find_first( ".//italique") %>% xml_text()
-  orateurs_time <- xml_find_all(nodes, ".//texte") %>% xml_attr("stime")
+  orateurs_nom <- xml_text( xml_find_all( nodes, ".//nom" ) ) #name
+  orateurs_id <- xml_text( xml_find_all( nodes, ".//id" ) ) #id
+  orateurs_qualite <- xml_text( xml_find_all( nodes, ".//qualite" ) ) #status
+  orateurs_texte <- xml_text( xml_find_all( nodes, ".//texte" ) ) #text
+  orateurs_italic <- nodes %>% xml_find_first( ".//italique") %>% xml_text() #movments of the crowd
+  orateurs_time <- xml_find_all(nodes, ".//texte") %>% xml_attr("stime") #duration of the intervention
   # We know if it is an interruption of not with the "code grammaire"
-  orateurs_interruption = xml_attr(nodes, "code_grammaire")
+  orateurs_interruption = xml_attr(nodes, "code_grammaire") #interruption or intervention
   
   # Create a df
   
-  out <- data.frame( date_seance, num_seance, theme,
-                     orateurs_nom, orateurs_id, orateurs_qualite, orateurs_texte,
-                     orateurs_italic, orateurs_interruption,
-                     orateurs_time)
+  out <- data.frame(date_seance, num_seance, theme,
+                           orateurs_nom, orateurs_id, orateurs_qualite, orateurs_texte,
+                           orateurs_italic, orateurs_interruption,
+                           orateurs_time)
   
   
 })
@@ -85,7 +83,5 @@ df <- do.call(rbind, df_list)
 
 ## Check
 table(df$date_seance)
-# The meetings of 28.06.2022 and 29.06.2022 have only 10 lines -> they are unrepresentative
-# We remove them of the dataframe
-df <- df %>% group_by(date_seance) %>% filter(n() >= 20)
+
 

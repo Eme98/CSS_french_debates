@@ -3,6 +3,17 @@ This work is a project for a CSS lecture. The aim is to assess whether women are
 
 -----
 
+| File    | Description |
+| ------- | ------- |
+|0_function_clean.R | used to form the dataset |
+| 1_work_txt.R | used to clean the text |
+| 2_list_mp.R : to have the party of each speaker
+| 3_stats_des.R : stats_des and plots
+ stats_des_time.R  | descriptive statistics stating that the time variable cannot be used |
+| 4_wordcloud_fcm.R | wordclouds and fcm | 
+
+
+
 In the main file can be found : 
 - file 0_function_clean.R : used to form the dataset
 - file 1_work_txt.R : used to clean the text

@@ -4,7 +4,7 @@
 
 This work is a project for a Computational Social Science lecture at the LMU. The Professor in charge of the course is Christoph Kern (LMU).
 
-The aim of the project is to assess whether women are more interrupted than men during a debate at the Assemblée Nationale in France and which words are used to interrupt them.
+The aim of the project is to assess (a) whether women are more interrupted than men during a debate at the Assemblée Nationale in France and (b) which words are used to interrupt them.
 
 To this end, the 31 debates of the summer 2022 at the Assemblée Nationale are used. Wordclouds and Feature of Co-occurence matrices are used to compare which words are used when interrupting a man or a women.
 
@@ -13,6 +13,8 @@ Results :  Women are significantly less interrupted than men at the Assemblée N
 
 
 -----
+
+## Description of the files
 
 | File    | Description |
 | ------- | ------- |
@@ -25,7 +27,7 @@ Results :  Women are significantly less interrupted than men at the Assemblée N
 
 You are invited to read the files in this order.
 
-In the branch can be found: 
-The XML files and a list of MPs
+**In the branch can be found: 
+The XML files and a list of MPs**
 
 

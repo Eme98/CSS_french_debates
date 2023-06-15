@@ -14,7 +14,7 @@ Results :  Women are significantly less interrupted than men at the Assemblée N
 
 -----
 
-## Description of the files
+## Description of the files in the GitHub repository
 
 | File    | Description |
 | ------- | ------- |

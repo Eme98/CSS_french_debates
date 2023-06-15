@@ -11,8 +11,24 @@ To this end, the 31 debates of the summer 2022 at the Assemblée Nationale are u
 Results :  Women are significantly less interrupted than men at the Assemblée Nationale. The interruptions are a bit shorter when addressed to a woman. Nonetheless, it seems that there are differences in how women and men interrupt. Women interrupt significantly less and with shorter sentences in average, but likely with more constructed arguments rather than only emotional sentences. This is interesting, because it means that women integrated gender stereotypes that they are more emotional than men and fight against them.
 
 
+## How men adress women at the Assemblée Nationale
+
+In this section, I present the results of how men adress women at the Assemblée Nationale during a debate. 
+In the PDF file are further presented how men interrupt men and how women interrupt both genders. 
+
+Men interrupt more often than women, even accounting for the fact that 63% of MPs are men. Interestingly, women MPs of the Party La France Insoumise (LFI) interrupt more often than other women MPs.
+![interruption_party_gender](https://github.com/Eme98/CSS_french_debates/assets/68661774/afe5cc1e-39f5-4ade-89ca-0fee0eb0bedb)
+
+Here is a wordcloud of the most used words men use to interrupt women. A common address for women is to call her ”Madame” (madam) which is more courteous than just to shout. Men do not adress their male counterparts in this manner (no presence of ”monsieur”). Another noticeable difference is the fact that men seem to prefer short sentences to women which mark quicker their opinion and use shorter sentences. 
+
+![wd_int_m_w](https://github.com/Eme98/CSS_french_debates/assets/68661774/69bd62d0-4fa9-4783-b3ef-421501f43ce8)
+
+This feature co-occurence matrice presents that men use shorter words and more emotional than women. They refer often to the President of the Assembly.
+
+![foo_int_m_w](https://github.com/Eme98/CSS_french_debates/assets/68661774/5e03884b-fea4-4da3-8fb3-5bbec92caa3a)
 
 -----
+
 
 ## Description of the files in the GitHub repository
 

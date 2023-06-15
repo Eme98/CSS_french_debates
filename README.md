@@ -2,7 +2,7 @@
 
 ## The Project
 
-This work is a project for a Computational Social Science lecture at the LMU. The Professor in charge of the course is Christoph Kern (LMU).
+This work is a project for a Computational Social Science lecture at the LMU. The Professor in charge of the course is Christoph Kern (LMU) <https://www.soda.statistik.uni-muenchen.de/people/professors/kern/index.html>.
 
 The aim of the project is to assess (a) whether women are more interrupted than men during a debate at the Assemblée Nationale in France and (b) which words are used to interrupt them.
 
@@ -18,14 +18,15 @@ Results :  Women are significantly less interrupted than men at the Assemblée N
 
 | File    | Description |
 | ------- | ------- |
-|0_function_clean.R | used to form the dataset |
+| 0_function_clean.R | used to form the dataset |
 | 1_work_txt.R | used to clean the text |
 | 2_list_mp.R | used to have the party of each speaker|
 | 3_stats_des.R | stats_des and plots|
-| stats_des_time.R  | descriptive statistics stating that the time variable cannot be used |
 | 4_wordcloud_fcm.R | Plots -  Wordclouds and Network of feature co-occurence | 
+| Let_me_speak | PDF file of the article |
+| stats_des_time.R  | *Descriptive statistics stating that the time variable cannot be used* |
 
-You are invited to read the files in this order.
+You are invited to read the R files in the order from 0 to 4.
 
 **In the branch can be found: 
 The XML files and a list of MPs**

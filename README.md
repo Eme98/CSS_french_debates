@@ -47,4 +47,7 @@ You are invited to read the R files in the order from 0 to 4.
 **In the branch can be found: 
 The XML files and a list of MPs**
 
+To run the programm, you need to load the XML files into a repository on your computer and run the R file :)
+Have fun!
+
 

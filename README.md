@@ -2,7 +2,7 @@
 
 ## The Project
 
-This work is a project for a Computational Social Science lecture at the LMU. The Professor in charge of the course is Christoph Kern (LMU) <https://www.soda.statistik.uni-muenchen.de/people/professors/kern/index.html>.
+This work is a project for a Computational Social Science lecture at the LMU. The Professor in charge of the course is [Christoph Kern (LMU)](https://www.soda.statistik.uni-muenchen.de/people/professors/kern/index.html).
 
 The aim of the project is to assess (a) whether women are more interrupted than men during a debate at the Assemblée Nationale in France and (b) which words are used to interrupt them.
 
